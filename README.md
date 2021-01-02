@@ -35,3 +35,5 @@ ShowStreamlines(sol1)
 ```
 
 `ShowStreamlines()` is a custom function, also exported by `SimpleNavierStokes` (and therefore available for you to use), which operates on objects of type `Results`. This will visualize the steady-state flow in a square lid-driven cavity.
+
+![Lid-driven cavity result](https://github.com/emadmasroor/SimpleNavierStokes.jl/assets/Square64.png)
