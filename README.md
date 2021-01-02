@@ -6,15 +6,32 @@
 
 Hello! Welcome to this simple package. It will export a function `LidDrivenCavity`, and in the future it will support other canonical flows.
 
-## Instructions
+## Installation Instructions
 
-Add the package to your Julia environment by executing 
+This package is not (yet) part of the official Julia package repository, `Pkg`. To add the package to your Julia environment, you'll need to enter the full package URL like this:
 
-`] add https://github.com/emadmasroor/SimpleNavierStokes.jl.git`
+`] add https://github.com/emadmasroor/SimpleNavierStokes.jl`
 
 in the Julia REPL. Then, type 
 
 `using SimpleNavierStokes`.
 
-That's it! You can now call the function `LidDrivenCavity()` to execute this classic benchmark problem on a 32 x 32 grid. There are optional keyword arguments, but you'll have to dig into the documentation to see the details.
+That's it!
 
+## Running your first simulation
+
+Try the following code to get started:
+
+```
+sol1 = LidDrivenCavity()
+``` 
+
+This will solve the Navier-Stokes equations on a square 32x32 grid and store the results in a custom type, `SimpleNavierStokes.Results`. The first time you run this (inside a particular instance of the Julia REPL), it will be rather slow, while the functions compile. The next few times, it should be much faster.
+
+To visualize the results, call the following function directly on `sol1`:
+
+```
+ShowStreamlines(sol1)
+```
+
+`ShowStreamlines()` is a custom function, also exported by `SimpleNavierStokes` (and therefore available for you to use), which operates on objects of type `Results`. This will visualize the steady-state flow in a square lid-driven cavity.
