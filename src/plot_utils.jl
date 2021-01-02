@@ -9,7 +9,7 @@ struct Results
     Re
 end
 
-ShowStreamlines(sol::Results) = contour(sol.x,sol.y,reverse(reverse(sol.ψ,dims=1),dims=2),
+ShowStreamlines(sol::SimpleNavierStokes.Results) = contour(sol.x,sol.y,reverse(reverse(sol.ψ,dims=1),dims=2),
           aspectratio=1,framestyle=:box,
           xlims=(sol.x[1],sol.x[end]),
           ylims=(sol.y[1],sol.y[end]),
