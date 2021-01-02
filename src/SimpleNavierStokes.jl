@@ -1,5 +1,5 @@
 module SimpleNavierStokes
-export LidDrivenCavity
+export LidDrivenCavity, ShowStreamlines
 
 using LinearAlgebra, SparseArrays, IterativeSolvers
 
