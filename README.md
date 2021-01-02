@@ -8,7 +8,13 @@ Hello! Welcome to this simple package. It will export a function `LidDrivenCavit
 
 ## Instructions
 
-Add the package to your Julia environment by executing ```] add https://github.com/emadmasroor/SimpleNavierStokes.jl.git``` in the Julia REPL. Then, type `using SimpleNavierStokes`.
+Add the package to your Julia environment by executing 
+
+`] add https://github.com/emadmasroor/SimpleNavierStokes.jl.git`
+
+in the Julia REPL. Then, type 
+
+`using SimpleNavierStokes`.
 
 That's it! You can now call the function `LidDrivenCavity()` to execute this classic benchmark problem on a 32 x 32 grid. There are optional keyword arguments, but you'll have to dig into the documentation to see the details.
 
