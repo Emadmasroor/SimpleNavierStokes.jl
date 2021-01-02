@@ -1,4 +1,4 @@
-# Package SimpleNavierStokes
+# SimpleNavierStokes.jl
 
 | Status | Coverage |
 | :----: | :----: |
