@@ -2,7 +2,11 @@ using Documenter
 using SimpleNavierStokes
 
 makedocs(
-    sitename = "SimpleNavierStokes",
+    sitename = "SimpleNavierStokes.jl Documentation",
+    pages = [
+	     "Index" => "index.md",
+	     "Gauss-Siedel Solver" => "gausssiedel.md",
+	     ],
     format = Documenter.HTML(),
     modules = [SimpleNavierStokes]
 )
