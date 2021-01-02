@@ -1,6 +1,7 @@
 using SimpleNavierStokes, Test
 
-@testset "Bare-bones test" begin
+@testset "Lid-Driven cavity runs" begin
+    @test LidDrivenCavity(tfinal=1).tfinal == 1
     @test LidDrivenCavity(tfinal=2).tfinal == 2
 end
 
