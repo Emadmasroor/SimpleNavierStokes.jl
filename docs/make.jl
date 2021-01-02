@@ -5,7 +5,7 @@ makedocs(
     sitename = "SimpleNavierStokes.jl Documentation",
     pages = [
 	     "Index" => "index.md",
-	     "Gauss-Siedel Solver" => "gausssiedel.md",
+	     "Gauss-Siedel Solver" => "gaussSiedel.md",
 	     ],
     format = Documenter.HTML(),
     modules = [SimpleNavierStokes]
