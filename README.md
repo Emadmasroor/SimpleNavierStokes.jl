@@ -4,7 +4,7 @@
 | :----: | :----: |
 | [![Build Status](https://travis-ci.org/emadmasroor/SimpleNavierStokes.jl.svg?branch=master)](https://travis-ci.org/emadmasroor/SimpleNavierStokes.jl) | [![codecov.io](http://codecov.io/github/emadmasroor/SimpleNavierStokes.jl/coverage.svg?branch=master)](http://codecov.io/github/emadmasroor/SimpleNavierStokes.jl?branch=master) |
 
-Hello! Welcome to this simple package. It is currently under active development.
+Hello! Welcome to this simple package. It is currently under active development. If you'd like to see a demonstration of how this code works, head over to my [blog post](https://emadmasroor.github.io/2020/12/16/CFD-tutorial-in-julia.html) or the associated [Nextjournal notebook](https://nextjournal.com/emadmasroor/CFD-tutorial-in-Julia).
 
 ## Installation Instructions
 
